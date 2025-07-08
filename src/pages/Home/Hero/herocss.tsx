@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
-import type { Theme } from "@mui/material/styles";
 
-export const StyledHero = styled("div")<{ theme?: Theme; }>(({ theme }) => ({
+
+export const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme?.palette.primary.main,
     height: "100vh",
 }));

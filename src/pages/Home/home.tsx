@@ -1,4 +1,3 @@
-import styled from "@emotion/styled"
 import Hero from "./Hero/hero"
 
 

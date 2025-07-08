@@ -2,7 +2,8 @@ import { StyledImg, StyledHero } from "./herocss"
 import Avatar from "../../../assets/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import { Button, Container, Grid, Typography } from "@mui/material"
+import { Container, Grid, Typography } from "@mui/material"
+import StyledButton from "../../../components/StyledButton/styledButton";
 
 const Hero = () => {
 
@@ -14,20 +15,24 @@ const Hero = () => {
                         <StyledImg src={Avatar} />
                     </Grid>
                     <Grid size={{ xs: 12, md: 8 }}>
-                        <Typography color="secondary" variant="h1" textAlign={"center"}>José Mário</Typography>
-                        <Typography color="secondary" variant="h2" textAlign={"center"}>I'm Software Developer</Typography>
+                        <Typography color="primary.contrastText" variant="h1" textAlign={"center"}>José Mário</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign={"center"}>I'm Software Developer</Typography>
                         <Grid container display={"flex"} justifyContent={"center"}>
                             <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
-                                <Button>
+                                <StyledButton>
                                     <DownloadIcon />
-                                    Download CV
-                                </Button>
+                                   <Typography>
+                                    Downloand CV
+                                   </Typography>
+                                </StyledButton>
                             </Grid>
                             <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
-                                <Button>
+                                <StyledButton>
                                     <MailOutlineIcon />
+                                    <Typography>
                                     Contact me
-                                </Button>
+                                    </Typography>
+                                </StyledButton>
                             </Grid>
                         </Grid>
                     </Grid>
