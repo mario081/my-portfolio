@@ -1,47 +1,51 @@
-# React + TypeScript + Vite
+🚀 Portfólio Pessoal - React + TypeScript + Vite
+Este é o repositório do meu portfólio desenvolvido com React, TypeScript e Vite, utilizando Hot Module Replacement (HMR) para uma experiência de desenvolvimento mais rápida e moderna. Além disso, o projeto segue boas práticas com ESLint configurado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📦 Tecnologias Utilizadas
+⚛️ React – Biblioteca para construção de interfaces modernas
 
-Currently, two official plugins are available:
+💡 TypeScript – Tipagem estática para maior segurança e escalabilidade
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Vite – Empacotador leve e ultra-rápido
 
-## Expanding the ESLint configuration
+✅ ESLint – Padronização e qualidade de código
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔧 Configuração do Projeto
+Este projeto utiliza dois plugins oficiais para integração com React:
 
-```js
+@vitejs/plugin-react (usa Babel para Fast Refresh)
+
+@vitejs/plugin-react-swc (usa SWC para Fast Refresh)
+
+🧠 Regras de Linting Avançadas
+Para aplicações em produção, é recomendável utilizar regras de lint com verificação de tipos:
+
+ts
+Copiar
+Editar
 export default tseslint.config([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
       ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
       ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
       ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
     ],
     languageOptions: {
       parserOptions: {
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
       },
-      // other options...
     },
   },
 ])
-```
+🎯 Plugins Recomendados
+Para regras específicas do React:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
+ts
+Copiar
+Editar
 // eslint.config.js
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
@@ -51,10 +55,7 @@ export default tseslint.config([
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...
-      // Enable lint rules for React
       reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
       reactDom.configs.recommended,
     ],
     languageOptions: {
@@ -62,8 +63,17 @@ export default tseslint.config([
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
       },
-      // other options...
     },
   },
 ])
-```
+💻 Como Rodar o Projeto
+bash
+Copiar
+Editar
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+✨ Objetivo do Projeto
+Este portfólio tem como objetivo apresentar meus projetos, habilidades e experiências como desenvolvedor front-end. Cada seção foi pensada para mostrar minha evolução e domínio das tecnologias modernas do ecossistema web.

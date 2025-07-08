@@ -1,5 +1,4 @@
-import { StyledHero } from "./herocss"
-import { StyledImg } from "./herocss"
+import { StyledImg, StyledHero } from "./herocss"
 import Avatar from "../../../assets/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
@@ -15,20 +14,20 @@ const Hero = () => {
                         <StyledImg src={Avatar} />
                     </Grid>
                     <Grid size={{ xs: 12, md: 8 }}>
-                        <Typography color="primary" variant="h1" textAlign={"center"}>José Mário</Typography>
-                        <Typography color="primary" variant="h2" textAlign={"center"}>I'm Software Developer</Typography>
+                        <Typography color="secondary" variant="h1" textAlign={"center"}>José Mário</Typography>
+                        <Typography color="secondary" variant="h2" textAlign={"center"}>I'm Software Developer</Typography>
                         <Grid container display={"flex"} justifyContent={"center"}>
-                            <Grid size={{ xs: 12, md: 4}} display={"flex"} justifyContent={"center"}>
+                            <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
                                 <Button>
                                     <DownloadIcon />
                                     Download CV
                                 </Button>
                             </Grid>
-                            <Grid size={{ xs: 12, md: 4}} display={"flex"} justifyContent={"center"}>
-                        <Button>
-                            <MailOutlineIcon />
-                            Contact me
-                        </Button>
+                            <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
+                                <Button>
+                                    <MailOutlineIcon />
+                                    Contact me
+                                </Button>
                             </Grid>
                         </Grid>
                     </Grid>
