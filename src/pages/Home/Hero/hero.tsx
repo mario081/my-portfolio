@@ -17,7 +17,7 @@ const Hero = () => {
                     <Grid size={{ xs: 12, md: 8 }}>
                         <Typography color="primary.contrastText" variant="h1" textAlign={"center"}>José Mário</Typography>
                         <Typography color="primary.contrastText" variant="h2" textAlign={"center"}>I'm Software Developer</Typography>
-                        <Grid container display={"flex"} justifyContent={"center"}>
+                        <Grid container display={"flex"} justifyContent={"center"} spacing={4}>
                             <Grid size={{ xs: 12, md: 4 }} display={"flex"} justifyContent={"center"}>
                                 <StyledButton>
                                     <DownloadIcon />
