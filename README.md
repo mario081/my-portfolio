@@ -23,5 +23,5 @@ npm install
 
 # Rode o servidor de desenvolvimento
 npm run dev
-✨ Objetivo do Projeto;
+✨ Objetivo do Projeto
 Este portfólio tem como objetivo apresentar meus projetos, habilidades e experiências como desenvolvedor front-end. Cada seção foi pensada para mostrar minha evolução e domínio das tecnologias modernas do ecossistema web.
