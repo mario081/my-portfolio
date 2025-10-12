@@ -31,7 +31,7 @@ const Hero = () => {
                                 <StyledButton>
                                     <DownloadIcon />
                                     <Typography>
-                                        Downloand CV
+                                        Downloand Curriculo
                                     </Typography>
                                 </StyledButton>
                             </Grid>
