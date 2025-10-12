@@ -17,7 +17,7 @@ Este projeto utiliza dois plugins oficiais para integração com React:
 
 @vitejs/plugin-react-swc (usa SWC para Fast Refresh)
 
-💻 Como Rodar o Projeto
+💻 Como Rodar o Projeto,
 # Instale as dependências
 npm install
 
