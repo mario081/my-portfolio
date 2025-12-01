@@ -4,15 +4,13 @@ import { useTheme } from "@mui/material/styles";
 import { AnimatedBackground } from "../../../components/AnimateBackground/AnimateBackground";
 import CodeIcon from '@mui/icons-material/Code';
 import ApiIcon from '@mui/icons-material/Api';
-import StorageIcon from '@mui/icons-material/Storage';
 import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import StyleIcon from '@mui/icons-material/Style';
 import BoltIcon from '@mui/icons-material/Bolt';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
-import SettingsIcon from '@mui/icons-material/Settings';
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 // Ícone customizado para Docker
 const DockerIcon = () => (
