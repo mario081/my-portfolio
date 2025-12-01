@@ -4,9 +4,11 @@ let theme = createTheme({
   palette: {
     primary: {
       main: '#232323',
+      contrastText: '#ffffff',
     },
     secondary: {
       main: '#4f8e3e',
+      contrastText: '#ffffff',
     },
   },
   typography: {

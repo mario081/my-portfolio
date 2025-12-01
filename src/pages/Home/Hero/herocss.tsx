@@ -3,9 +3,11 @@ import styled from "@emotion/styled";
 
 export const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme?.palette.primary.main,
-    height: "100vh",
+    minHeight: "100vh",
     display: "flex",
     alignItems: "center",
+    paddingTop: "10px",
+    scrollMarginTop: "80px",
 }));
 
 export const StyledImg = styled("img")(({theme}) => ({
